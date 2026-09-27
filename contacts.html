@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Personal portfolio website">
+<title>Contacts | NCC Creatives</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contacts">
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">NCC CREATIVES</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a data-page="home" href="index.html">Home</a>
+      <a data-page="services" href="services.html">Services</a>
+      <a data-page="portfolio" href="portfolio.html">Portfolio</a>
+      <a data-page="about" href="about.html">About</a>
+      <a data-page="contacts" href="contacts.html">Contacts</a>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="page-head"><div class="eyebrow">Let’s connect</div><h1>Get In Touch</h1><p>Give visitors a simple way to contact you or find your social media accounts.</p></div>
+<div class="contact-grid">
+  <div class="card">
+    <h2>Contact Details</h2>
+    <div class="contact-item"><strong>Email</strong><br><span style="color:var(--muted)">johnlorenz.mangcao@nmsc.edu.ph</span></div>
+    <div class="contact-item"><strong>Location</strong><br><span style="color:var(--muted)">Tangub City, Philippines</span></div>
+    <div class="contact-item"><strong>Facebook / Instagram</strong><br><a href="#" style="color:var(--accent)">https://www.facebook.com/bobbybobvov</a></div>
+  </div>
+  <div class="card">
+    <h2>Send a Message</h2>
+    <form id="contactForm">
+      <div><label for="name">Name</label><input id="name" required placeholder="Your full name"></div>
+      <div><label for="email">Email</label><input id="email" type="email" required placeholder="you@example.com"></div>
+      <div><label for="message">Message</label><textarea id="message" required placeholder="Write your message..."></textarea></div>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+    <p id="formStatus" class="note"></p>
+  </div>
+</div>
+</main>
+<footer>© <span id="year"></span> John Lorenz · Built with HTML, CSS & JavaScript</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
